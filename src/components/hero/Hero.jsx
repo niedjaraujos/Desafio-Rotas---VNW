@@ -5,14 +5,14 @@ import icone from '../../assets/estetoscopio.png';
 import image from '../../assets/medicovoluntario.png';
 export default function Hero() {
   return (
-    <section>
+    <section className={S.heroSection}>
       <div className={S.hero}>
         <div className={S.tag}>
           <img src={icone} alt="icone estetoscópio" />
           <span>Saúde para todos</span>
         </div>
         <h1>Saúde e cuidado sem barreiras</h1>
-        <p>
+        <p className={S.herotext}>
           Um projeto dedicado a oferecer atendimento médico e odontológico
           gratuito para pessoas que mais precisam na nossa comunidade.
         </p>

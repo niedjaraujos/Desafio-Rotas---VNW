@@ -1,7 +1,9 @@
 @use '../../globalStyler.scss' as *;
 .missao {
+  margin-bottom: 3rem;
   h2 {
     font-size: 4rem;
+    margin-bottom: 0.5rem;
   }
   p {
     font-size: 1.5rem;

@@ -1,9 +1,13 @@
 @use '../../globalStyler.scss' as *;
 .cardText {
-  h3 {
-    font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    border: 1px solid $white;
+    padding-block: 2rem;
   }
   p {
-    font-size: 1.5rem;
+    color: $white;
   }
 }

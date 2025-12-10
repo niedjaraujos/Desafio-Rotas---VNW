@@ -1,6 +1,6 @@
 @use '../../globalStyler.scss' as *;
 
-section {
+.heroSection {
   display: flex;
   justify-content: space-between;
   padding: 1.6rem 5rem 5rem;
@@ -17,7 +17,7 @@ section {
     font-weight: 700;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   }
-  p {
+  .herotext {
     font-size: 1.9rem;
     width: 80%;
     line-height: 39px;
