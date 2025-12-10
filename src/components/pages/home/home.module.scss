@@ -1,6 +1,10 @@
 @use '../../../globalStyler.scss' as *;
+
+.sectionText,
+.sectionNum {
+  padding: 3rem 5rem 5rem;
+}
 .sectionText {
   background-color: $green;
   color: $white;
-  padding: 2rem 5rem 4rem;
 }

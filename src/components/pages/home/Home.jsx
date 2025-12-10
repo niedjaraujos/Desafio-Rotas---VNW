@@ -22,9 +22,8 @@ export default function Home() {
           title="Nosso Impacto"
           paragrafo="Transformando a saúde de nossa comunidade, um paciente de cada vez"
         />
-        <div className={S.cardsNum}>
-          <CardNumbers />
-        </div>
+
+        <CardNumbers />
       </section>
     </main>
   );

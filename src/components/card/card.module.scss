@@ -5,7 +5,10 @@
   height: 230px;
   border-radius: 14px;
   padding-inline: 3rem;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
 
   h3 {
     font-size: 2rem;
