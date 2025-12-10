@@ -1,16 +1,13 @@
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/logo.png';
 
-import * as S from './header.module.scss';
 import { ButtonLink } from '../buttonLink/ButtonLink';
+import { Logo } from '../logo/Logo';
+import * as S from './header.module.scss';
 
 export default function Header() {
   return (
-    <header>
-      <div className={S.boxLogo}>
-        <img src={Logo} alt="Logomarca" />
-        <Link to="/">Médicos & Dentistas</Link>
-      </div>
+    <header className={S.header}>
+      <Logo />
       <nav>
         <Link to="/">Home</Link>
         <ButtonLink to="/voluntario" children="Seja Voluntario" />

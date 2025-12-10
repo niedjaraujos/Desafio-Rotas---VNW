@@ -1,22 +1,11 @@
 @use '../../globalStyler.scss' as *;
 
-header {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 5rem;
   border-bottom: 2px solid gray;
-
-  .boxLogo {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-  }
-  a {
-    color: black;
-    font-size: 1.4rem;
-    font-weight: 600;
-  }
 }
 nav {
   display: flex;
@@ -24,5 +13,7 @@ nav {
   gap: 2rem;
   a {
     font-weight: 500;
+    color: $black;
+    font-size: 1.4rem;
   }
 }

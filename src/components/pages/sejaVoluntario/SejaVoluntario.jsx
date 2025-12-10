@@ -1,7 +1,48 @@
+import { Card } from '../../card/Card';
+import SectionTitle from '../../sectionTitle/SectionTitle';
+import * as S from './sejaVoluntario.module.scss';
+import { ButtonLink } from '../../buttonLink/ButtonLink';
+
 export default function SejaVoluntario() {
   return (
     <main>
-      <h2>seja vol</h2>
+      <section className={S.sectionVoluntario}>
+        <SectionTitle
+          title="Seja Voluntário"
+          paragrafo="Junte-se a nós e faça a diferença na vida de pessoas que precisam"
+        />
+
+        <div className={S.cards}>
+          <Card
+            titulo="Impacto Direto"
+            paragrafo="Sua dedicação salva vidas e transforma comunidades"
+          />
+          <Card
+            titulo="Crescimento Pessoal"
+            paragrafo="Desenvolva habilidades e cresça profissionalmente"
+          />
+          <Card
+            titulo="Comunidade"
+            paragrafo="Faça parte de uma rede de profissionais comprometidos"
+          />
+        </div>
+      </section>
+      <section className={S.formulario}>
+        <h4></h4>
+        <form>
+          <label>Dados Pessoais</label>
+          <input type="text" placeholder="Seu Nome *" />
+          <input type="email" placeholder="Seu Email *" />
+          <input type="tel" placeholder="Seu Telefone *" />
+
+          <label>Mensagem Adicional</label>
+          <textarea placeholder="Conte-nos porque você quer ser voluntario..."></textarea>
+
+          <p>Entraremos em contato para mais informações</p>
+
+          <button type="submit">Enviar Inscrição</button>
+        </form>
+      </section>
     </main>
   );
 }

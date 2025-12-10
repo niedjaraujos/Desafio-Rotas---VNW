@@ -1,0 +1,18 @@
+@use '../../../globalStyler.scss' as *;
+
+.sectionVoluntario {
+  text-align: center;
+  padding: 2rem 5rem;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  div {
+    color: $black;
+    border: 1px solid $black;
+    height: 170px;
+    p {
+      padding-inline: 2rem;
+    }
+  }
+}

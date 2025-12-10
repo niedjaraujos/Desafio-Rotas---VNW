@@ -5,12 +5,14 @@ import * as S from './footer.module.scss';
 import email from '../../assets/email.png';
 import fone from '../../assets/telefone.png';
 import local from '../../assets/localizacao.png';
+import { Logo } from '../logo/Logo';
 
 export default function Footer() {
   return (
     <footer>
       <div className={S.footerContainer}>
-        <div>
+        <div className={S.logoFooter}>
+          <Logo />
           <p>Saúde e cuidado sem barreiras para toda comunidade.</p>
         </div>
         <div>
