@@ -1,0 +1,35 @@
+@use '../../globalStyler.scss' as *;
+
+footer {
+  background-color: $dark-color;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.5rem;
+  padding: 3rem 0;
+}
+.footerContainer {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+p {
+  font-size: 14px;
+}
+h4 {
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+a {
+  color: $white;
+  line-height: 20px;
+  font-size: 14px;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}

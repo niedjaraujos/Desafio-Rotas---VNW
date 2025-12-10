@@ -1,3 +1,5 @@
+@use '../../globalStyler.scss' as *;
+
 header {
   display: flex;
   align-items: center;
@@ -5,15 +7,22 @@ header {
   padding: 1rem 3rem;
   border-bottom: 2px solid gray;
 
-  .box-logo {
+  .boxLogo {
     display: flex;
     align-items: center;
     gap: 0.6rem;
   }
   a {
-    text-decoration: none;
     color: black;
     font-size: 1rem;
     font-weight: 600;
+  }
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  a {
+    font-weight: 500;
   }
 }

@@ -1,0 +1,8 @@
+@use '../../globalStyler.scss' as *;
+
+.link {
+  background-color: $green;
+  color: white;
+  border-radius: 8px;
+  padding: 0.6rem 1.3rem;
+}
