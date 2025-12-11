@@ -28,18 +28,23 @@ export default function SejaVoluntario() {
         </div>
       </section>
       <section className={S.formulario}>
-        <h4></h4>
         <form>
-          <label>Dados Pessoais</label>
-          <input type="text" placeholder="Seu Nome *" />
-          <input type="email" placeholder="Seu Email *" />
-          <input type="tel" placeholder="Seu Telefone *" />
+          <h3>Inscrição para Voluntários</h3>
+          <fieldset>
+            <legend>Dados Pessoais</legend>
+            <input type="text" placeholder="Seu Nome *" />
+            <input type="email" placeholder="Seu Email *" />
+            <input type="tel" placeholder="Seu Telefone *" />
+          </fieldset>
 
-          <label>Mensagem Adicional</label>
-          <textarea placeholder="Conte-nos porque você quer ser voluntario..."></textarea>
+          <fieldset>
+            <legend>Mensagem Adicional</legend>
+            <textarea placeholder="Conte-nos porque você quer ser voluntario..."></textarea>
+          </fieldset>
 
-          <p>Entraremos em contato para mais informações</p>
-
+          <p className={S.contato}>
+            Entraremos em contato para mais informações
+          </p>
           <button type="submit">Enviar Inscrição</button>
         </form>
       </section>

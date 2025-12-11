@@ -21,8 +21,8 @@ export default function Hero() {
           <ButtonLink to="/" children="Como Ajudar" />
         </div>
       </div>
-      <div>
-        <img src={image} alt="iamgem de um medico voluntario" />
+      <div className={S.heroImage}>
+        <img src={image} alt="imagem de um medico voluntario, gerada por IA" />
       </div>
     </section>
   );

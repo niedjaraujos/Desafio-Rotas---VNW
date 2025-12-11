@@ -15,5 +15,14 @@ nav {
     font-weight: 500;
     color: $black;
     font-size: 1.4rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+@media (max-width: 480px) {
+  nav {
+    display: none;
   }
 }

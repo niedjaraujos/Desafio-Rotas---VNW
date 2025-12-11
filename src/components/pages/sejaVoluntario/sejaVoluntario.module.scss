@@ -7,12 +7,96 @@
 .cards {
   display: flex;
   justify-content: space-between;
-  div {
+  article {
     color: $black;
     border: 1px solid $black;
-    height: 170px;
+
     p {
       padding-inline: 2rem;
     }
+  }
+}
+.formulario {
+  background-color: $green;
+  padding: 5rem;
+  h3 {
+    font-size: 1.75rem;
+  }
+}
+form {
+  background-color: $white;
+  width: 90%;
+  height: 800px;
+  margin: auto;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+fieldset {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.7rem;
+  margin-top: 1rem;
+
+  legend {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+}
+input,
+textarea {
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid $black;
+  background-color: #f8f8f8;
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem 0 2rem;
+
+  &::placeholder {
+    font-size: 1.13rem;
+  }
+}
+
+input {
+  width: calc(50% - 1rem);
+  height: 58px;
+  padding: 1rem 1.5rem 2rem;
+
+  &:nth-child(4) {
+    width: 100%;
+  }
+}
+textarea {
+  height: 180px;
+  resize: none;
+}
+
+.contato {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+button {
+  background-color: $green;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  width: 230px;
+  height: 60px;
+  font-size: 1.25rem;
+  line-height: 29px;
+  margin: 0 auto;
+
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    filter: brightness(1.2);
+    text-decoration: underline;
   }
 }

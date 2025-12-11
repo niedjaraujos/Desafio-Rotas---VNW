@@ -1,10 +1,10 @@
 @use '../../globalStyler.scss' as *;
 
 .card {
-  width: 470px;
-  height: 230px;
+  width: 28vw;
+  height: auto;
   border-radius: 14px;
-  padding-inline: 3rem;
+  padding: 1.2rem 3rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -14,7 +14,7 @@
     font-size: 2rem;
     font-weight: 700;
     line-height: 28px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
   }
   p {
     color: $black;
