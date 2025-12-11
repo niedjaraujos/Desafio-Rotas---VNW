@@ -1,7 +1,6 @@
 import { Card } from '../../card/Card';
 import SectionTitle from '../../sectionTitle/SectionTitle';
 import * as S from './sejaVoluntario.module.scss';
-import { ButtonLink } from '../../buttonLink/ButtonLink';
 
 export default function SejaVoluntario() {
   return (

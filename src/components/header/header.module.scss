@@ -22,6 +22,19 @@ nav {
   }
 }
 @media (max-width: 480px) {
+  .header {
+    padding: 0.5rem;
+
+    div {
+      img {
+        width: 30px;
+      }
+      a {
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+    }
+  }
   nav {
     display: none;
   }
