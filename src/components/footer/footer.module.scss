@@ -48,3 +48,39 @@ li {
   gap: 0.6rem;
   margin-top: 0.5rem;
 }
+@media (max-width: 480px) {
+  footer {
+    padding: 2rem 1rem;
+  }
+  .footerContainer {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+  }
+
+  .logoFooter {
+    margin-bottom: 2rem;
+    div {
+      img {
+        width: 30px;
+      }
+      a {
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+  p,
+  a {
+    font-size: 0.55rem;
+  }
+  h4 {
+    font-size: 0.8rem;
+  }
+  li img {
+    width: 20px;
+  }
+}
