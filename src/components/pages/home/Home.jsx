@@ -1,4 +1,4 @@
-import { CardNumbers } from '../../cardNumbers/cardNumbers';
+import { CardNumbers } from '../../cardNumbers/CardNumbers';
 import { CardText } from '../../cardText/CardText';
 import Hero from '../../hero/Hero';
 import SectionTitle from '../../sectionTitle/SectionTitle';
