@@ -19,20 +19,21 @@
 .formulario {
   background-color: $green;
   padding: 5rem;
-  h3 {
-    font-size: 1.75rem;
-  }
 }
 form {
   background-color: $white;
   width: 90%;
-  height: 800px;
+  height: auto;
   margin: auto;
   padding: 2.5rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+  h3 {
+    font-size: 1.75rem;
+  }
 }
 fieldset {
   border: none;
@@ -40,12 +41,11 @@ fieldset {
   flex-wrap: wrap;
   gap: 1.7rem;
   margin-top: 1rem;
-
-  legend {
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-bottom: 2rem;
-  }
+}
+legend {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
 input,
 textarea {
@@ -128,5 +128,50 @@ button {
         padding-inline: 1rem;
       }
     }
+  }
+
+  .formulario {
+    padding: 2rem 0.5rem;
+    h3 {
+      font-size: 1.25rem;
+      text-align: center;
+    }
+  }
+  form {
+    padding: 2rem 1rem;
+    border-radius: 0.8rem;
+  }
+  fieldset {
+    gap: 0.8rem;
+  }
+  legend {
+    font-size: 1rem;
+  }
+
+  input,
+  textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+
+    &::placeholder {
+      font-size: 0.8rem;
+    }
+  }
+  input {
+    width: calc(50% - 0.4rem);
+    height: 50px;
+  }
+  textarea {
+    height: 140px;
+  }
+
+  .contato {
+    font-size: 1rem;
+  }
+
+  button {
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
   }
 }
