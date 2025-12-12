@@ -1,5 +1,7 @@
 @use '../../globalStyler.scss' as *;
-
+.hamburguer {
+  display: none;
+}
 .header {
   display: flex;
   align-items: center;
@@ -22,6 +24,10 @@ nav {
   }
 }
 @media (max-width: 480px) {
+  .hamburguer {
+    display: block;
+    padding-right: 0.5rem;
+  }
   .header {
     padding: 0.5rem;
 
