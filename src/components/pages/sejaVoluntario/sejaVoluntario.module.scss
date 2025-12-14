@@ -71,6 +71,15 @@ input {
     width: 100%;
   }
 }
+.inputError {
+  border: 1px solid #d32f2f;
+
+  &::placeholder {
+    color: #d32f2f;
+    opacity: 1; // importante no Firefox
+  }
+}
+
 textarea {
   height: 180px;
   resize: none;
